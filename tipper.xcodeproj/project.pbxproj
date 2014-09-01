@@ -12,6 +12,7 @@
 		82425FD619B395700050F782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82425FD419B395700050F782 /* Main.storyboard */; };
 		82425FD819B395700050F782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82425FD719B395700050F782 /* Images.xcassets */; };
 		82425FE419B395710050F782 /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82425FE319B395710050F782 /* tipperTests.swift */; };
+		8243401219B40EAF0058279C /* todoubleext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243401119B40EAF0058279C /* todoubleext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		82425FDD19B395710050F782 /* tipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82425FE219B395710050F782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82425FE319B395710050F782 /* tipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperTests.swift; sourceTree = "<group>"; };
+		8243401119B40EAF0058279C /* todoubleext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = todoubleext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				82425FD019B395700050F782 /* AppDelegate.swift */,
 				82425FD219B395700050F782 /* ViewController.swift */,
 				82425FD419B395700050F782 /* Main.storyboard */,
+				8243401119B40EAF0058279C /* todoubleext.swift */,
 				82425FD719B395700050F782 /* Images.xcassets */,
 				82425FCE19B395700050F782 /* Supporting Files */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8243401219B40EAF0058279C /* todoubleext.swift in Sources */,
 				82425FD319B395700050F782 /* ViewController.swift in Sources */,
 				82425FD119B395700050F782 /* AppDelegate.swift in Sources */,
 			);
@@ -239,6 +243,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
@@ -326,8 +331,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -337,8 +344,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -395,6 +404,7 @@
 				82425FE919B395710050F782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82425FEA19B395710050F782 /* Build configuration list for PBXNativeTarget "tipperTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +413,7 @@
 				82425FEC19B395710050F782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
